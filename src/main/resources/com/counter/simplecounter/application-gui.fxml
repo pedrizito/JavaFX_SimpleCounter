@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.counter.simplecounter.ApplicationController">
+   <children>
+      <Button fx:id="btIncrease" layoutX="251.0" layoutY="29.0" mnemonicParsing="false" onAction="#increaseAction" text="Incrementar" />
+      <Button fx:id="btDecrease" layoutX="248.0" layoutY="320.0" mnemonicParsing="false" onAction="#decreaseAction" text="Decrementar" />
+      <Label fx:id="counter" alignment="CENTER" contentDisplay="CENTER" layoutY="134.0" prefHeight="92.0" prefWidth="600.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font size="76.0" />
+         </font>
+      </Label>
+      <Button fx:id="btRestart" layoutX="26.0" layoutY="168.0" mnemonicParsing="false" onAction="#restart" text="Restart" />
+   </children>
+</AnchorPane>
